@@ -8,7 +8,7 @@ if(!$con){
 }
 $result = mysqli_select_db('test',$con);//选择数据库
 var_dump($result);
-//$query = 'SELECT * FROM t_grade WHERE 学号=20144754';
+//$query = 'SELECT * FROM t_grade WHERE 学号=xxx';
 //
 //$result = mysqli_query($query) or die('Query failed: ' . mysqli_error());
 
